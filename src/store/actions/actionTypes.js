@@ -1,0 +1,5 @@
+export const SAVE_PHOTOS = 'SAVE_PHOTOS'
+export const SAVE_NO_PHOTOS = 'SAVE_NO_PHOTOS'
+export const CLEAR_SOL_PHOTOS = 'CLEAR_SOL_PHOTOS'
+export const SAVE_SOL_PHOTOS = 'SAVE_SOL_PHOTOS'
+export const SAVE_NO_SOL_PHOTOS = 'SAVE_NO_SOL_PHOTOS'
