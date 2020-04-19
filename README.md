@@ -15,16 +15,6 @@ Clicking on a single item in the scrollabe list of the API result (collection) s
 Once a photo is downloaded from NASA's server, we no longer make a network request if re-requesting same photo using a basic caching mechanism.
 
 
-### Third-party Library Used
-
-1. react-inifinite-scroll-component -> to bring in the infinite scrolling functionality which was simpler than re-writing a similar logic that would achieved the same objective given this short span of time
-1. redux -> central state management for getting cache implemented later
-1. react-redux -> for integrating react with redux by getting an instance of the provider
-1. redux-thunk -> adds middleware to handle asynchronous calls through redux
-1. localstorage-ttl -> handles the ttl for response to implement basic caching mechanism
-1. dotenv -> for providing an easy way to save environment variable which are sensitive and should not be pushed to public repos on GIT
-
-
 ## To Run
 
 1. Clone the repository
@@ -43,3 +33,11 @@ Once a photo is downloaded from NASA's server, we no longer make a network reque
 1. Redux
 1. Caching Mechanism
 
+### Third-party Library Used
+
+1. react-inifinite-scroll-component -> to bring in the infinite scrolling functionality which was simpler than re-writing a similar logic that would achieved the same objective given this short span of time
+1. redux -> central state management for getting cache implemented later
+1. react-redux -> for integrating react with redux by getting an instance of the provider
+1. redux-thunk -> adds middleware to handle asynchronous calls through redux
+1. localstorage-ttl -> handles the ttl for response to implement basic caching mechanism
+1. dotenv -> for providing an easy way to save environment variable which are sensitive and should not be pushed to public repos on GIT
